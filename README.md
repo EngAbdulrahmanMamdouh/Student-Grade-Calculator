@@ -1,17 +1,18 @@
 
 # Student Grade Calculator
 
-A simple Python application that calculates students' grades and generates a detailed report.
+A Python-based student grade management application with an interactive web interface built using Streamlit.
 
 ## Features
 
-- Enter student information.
-- Input scores for four subjects.
-- Validate scores between 0 and 100.
-- Calculate total score and average.
-- Assign a letter grade (A, B, C, D, F).
+- Add multiple students.
+- Enter scores for four subjects.
+- Validate student names and scores.
+- Calculate total scores and averages.
+- Assign grades (A, B, C, D, F).
 - Determine Pass or Fail status.
-- Calculate grades for multiple students.
+- Display student records in a table.
+- Export student records to CSV.
 
 ## Subjects
 
@@ -20,33 +21,30 @@ A simple Python application that calculates students' grades and generates a det
 - English
 - Artificial Intelligence
 
-## Technologies Used
+## Technologies
 
-- Python 3
-- Functions
-- Dictionaries
-- Loops
-- Conditional Statements
-- Exception Handling
+- Python 3.12
+- Streamlit
+- Pandas
 
-## How to Run
+## Installation
 
-1. Install Python 3.
-2. Download or clone this repository.
-3. Open the project folder in the terminal.
-4. Run:
+Install the required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Run the Web Application
+
+```bash
+streamlit run app.py
+```
+
+## Run the Command-Line Version
 
 ```bash
 python main.py
-```
-
-## Example Output
-
-```text
-Total Score: 371.00/400
-Average: 92.75%
-Grade: A
-Result: Pass
 ```
 
 ## Author
